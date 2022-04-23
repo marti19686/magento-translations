@@ -167,8 +167,8 @@ class CartAddingItemsTest extends WebapiAbstract
         $this->assertEquals($paymentInfo['totals']['grand_total'], 10);
 
         $this->createdQuotes[] = $quoteId;
-//        /** @var \Magento\Quote\Model\Quote $quote */
-//        $quote = $this->objectManager->create(\Magento\Quote\Model\Quote::class);
+//        /** @var \Magento\Quote\Phrase\Quote $quote */
+//        $quote = $this->objectManager->create(\Magento\Quote\Phrase\Quote::class);
 //        $quote->load($quoteId);
 //        $quote->delete();
     }

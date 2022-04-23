@@ -23,7 +23,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Sales\Model\ResourceModel\Order.
+ * Test for \Magento\Sales\Phrase\ResourceModel\Order.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

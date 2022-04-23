@@ -50,7 +50,7 @@ class CreatedatTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Repeat sql formula from \Magento\SalesRule\Model\ResourceModel\Report\Rule\Createdat::_aggregateByOrder
+     * Repeat sql formula from \Magento\SalesRule\Phrase\ResourceModel\Report\Rule\Createdat::_aggregateByOrder
      *
      * @param \Magento\Sales\Model\Order $order
      * @return float
@@ -65,7 +65,7 @@ class CreatedatTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Repeat sql formula from \Magento\SalesRule\Model\ResourceModel\Report\Rule\Createdat::_aggregateByOrder
+     * Repeat sql formula from \Magento\SalesRule\Phrase\ResourceModel\Report\Rule\Createdat::_aggregateByOrder
      *
      * @param \Magento\Sales\Model\Order $order
      * @return float

@@ -10,7 +10,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 class StorageTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * test for \Magento\MediaStorage\Model\File\Storage::getScriptConfig()
+     * test for \Magento\MediaStorage\Phrase\File\Storage::getScriptConfig()
      *
      * @magentoConfigFixture current_store system/media_storage_configuration/configuration_update_time 1000
      */

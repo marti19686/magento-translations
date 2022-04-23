@@ -18,7 +18,7 @@ use Magento\Integration\Model\Oauth\Token\RequestLog\Config as TokenThrottlerCon
 use Magento\Integration\Api\CustomerTokenServiceInterface;
 
 /**
- * api-functional test for \Magento\Integration\Model\CustomerTokenService.
+ * api-functional test for \Magento\Integration\Phrase\CustomerTokenService.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -321,7 +321,7 @@ class CustomerTokenServiceTest extends WebapiAbstract
     private function assertToken($accessToken, $userName, $password)
     {
         $customerData = $this->customerAccountManagement->authenticate($userName, $password);
-        /** @var $this ->tokenCollection \Magento\Integration\Model\ResourceModel\Oauth\Token\Collection */
+        /** @var $this ->tokenCollection \Magento\Integration\Phrase\ResourceModel\Oauth\Token\Collection */
         $this->tokenCollection->addFilterByCustomerId($customerData->getId());
         $isTokenCorrect = false;
         foreach ($this->tokenCollection->getItems() as $item) {

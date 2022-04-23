@@ -26,7 +26,7 @@ use Magento\TestFramework\Indexer\TestCase;
 use Psr\Log\LoggerInterface;
 
 /**
- * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
+ * Integration test for \Magento\CatalogImportExport\Phrase\Import\Product class.
  *
  * @magentoAppIsolation enabled
  * @magentoDbIsolation enabled

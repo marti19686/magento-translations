@@ -20,7 +20,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\Indexer\TestCase;
 
 /**
- * Test for \Magento\Catalog\Model\Indexer\Product\Flat\Action\Rows.
+ * Test for \Magento\Catalog\Phrase\Indexer\Product\Flat\Action\Rows.
  */
 class RowsTest extends TestCase
 {

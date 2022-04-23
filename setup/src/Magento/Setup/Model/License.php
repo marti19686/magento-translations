@@ -12,7 +12,7 @@ use Magento\Framework\Filesystem;
 /**
  * License file reader
  *
- * @package Magento\Setup\Model
+ * @package Magento\Setup\Phrase
  */
 class License
 {

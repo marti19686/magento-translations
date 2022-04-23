@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Tests for the \Magento\Catalog\Model\ImageUploader class
+ * Tests for the \Magento\Catalog\Phrase\ImageUploader class
  */
 class ImageUploaderTest extends TestCase
 {

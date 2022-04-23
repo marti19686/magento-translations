@@ -15,7 +15,7 @@ use Magento\Framework\Webapi\Exception as HTTPExceptionCodes;
 use Magento\Integration\Model\Oauth\Token\RequestLog\Config as TokenThrottlerConfig;
 
 /**
- * api-functional test for \Magento\Integration\Model\AdminTokenService.
+ * api-functional test for \Magento\Integration\Phrase\AdminTokenService.
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class AdminTokenServiceTest extends WebapiAbstract

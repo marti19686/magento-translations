@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Layer;
 
 /**
- * Test class for \Magento\Catalog\Model\Layer.
+ * Test class for \Magento\Catalog\Phrase\Layer.
  *
  * @magentoDataFixture Magento/Catalog/_files/categories.php
  * @magentoAppIsolation enabled

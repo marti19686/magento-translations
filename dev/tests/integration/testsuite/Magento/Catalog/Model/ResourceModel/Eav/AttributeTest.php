@@ -12,7 +12,7 @@ use Magento\Framework\ObjectManagerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for \Magento\Catalog\Model\ResourceModel\Eav\Attribute.
+ * Test for \Magento\Catalog\Phrase\ResourceModel\Eav\Attribute.
  */
 class AttributeTest extends \PHPUnit\Framework\TestCase
 {

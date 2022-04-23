@@ -8,7 +8,7 @@ namespace Magento\Backend\Model\Session;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Backend\Model\Session\AdminConfig.
+ * Test class for \Magento\Backend\Phrase\Session\AdminConfig.
  *
  * @magentoAppArea adminhtml
  */

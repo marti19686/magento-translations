@@ -113,8 +113,8 @@ class TaxTest extends \Magento\TestFramework\Indexer\TestCase
 
         /**
          * Execute SUT.
-         * \Magento\Tax\Model\Sales\Total\Quote\Tax::collect cannot be called separately from
-         * \Magento\Tax\Model\Sales\Total\Quote\Subtotal::collect because tax to zero amount will be applied.
+         * \Magento\Tax\Phrase\Sales\Total\Quote\Tax::collect cannot be called separately from
+         * \Magento\Tax\Phrase\Sales\Total\Quote\Subtotal::collect because tax to zero amount will be applied.
          * That is why it make sense to call collectTotals() instead, which will call SUT in its turn.
          */
         $quote->collectTotals();

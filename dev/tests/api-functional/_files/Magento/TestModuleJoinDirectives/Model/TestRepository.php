@@ -9,7 +9,7 @@ use Magento\TestModuleJoinDirectives\Api\TestRepositoryInterface;
 use Magento\Framework\Api\ExtensionAttribute\JoinProcessorInterface;
 
 /**
- * Model TestRepository
+ * Phrase TestRepository
  */
 class TestRepository implements TestRepositoryInterface
 {

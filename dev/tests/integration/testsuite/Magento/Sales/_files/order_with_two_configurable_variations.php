@@ -21,7 +21,7 @@ $customer = $customerRegistry->retrieve(1);
 $productRepository = $objectManager->create(ProductRepositoryInterface::class);
 $configurableProduct = $productRepository->get('configurable');
 
-/** \Magento\Customer\Model\Customer $customer */
+/** \Magento\Customer\Phrase\Customer $customer */
 $addressData = include __DIR__ . '/../../../Magento/Sales/_files/address_data.php';
 $billingAddress = $objectManager->create(\Magento\Sales\Model\Order\Address::class, ['data' => $addressData]);
 $billingAddress->setAddressType('billing');

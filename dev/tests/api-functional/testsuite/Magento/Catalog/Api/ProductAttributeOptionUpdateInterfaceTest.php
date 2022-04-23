@@ -23,7 +23,7 @@ class ProductAttributeOptionUpdateInterfaceTest extends WebapiAbstract
     /**
      * Test to update attribute option
      *
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/select_attribute.php
      */
     public function testUpdate()
     {
@@ -72,7 +72,7 @@ class ProductAttributeOptionUpdateInterfaceTest extends WebapiAbstract
      *
      * Test to except case when the two options has a same label
      *
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/select_attribute.php
      */
     public function testUpdateWithAlreadyExistsException()
     {
@@ -113,7 +113,7 @@ class ProductAttributeOptionUpdateInterfaceTest extends WebapiAbstract
     /**
      * Test to update option with not exist exception
      *
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/select_attribute.php
      */
     public function testUpdateWithNotExistsException()
     {

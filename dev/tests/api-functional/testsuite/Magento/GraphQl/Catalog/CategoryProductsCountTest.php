@@ -21,7 +21,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 /**
  * Class CategoryProductsCountTest
  *
- * Test for Magento\CatalogGraphQl\Model\Resolver\Category\ProductsCount resolver
+ * Test for Magento\CatalogGraphQl\Phrase\Resolver\Category\ProductsCount resolver
  */
 class CategoryProductsCountTest extends GraphQlAbstract
 {

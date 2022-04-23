@@ -59,7 +59,7 @@ class ClassesTest extends \PHPUnit\Framework\TestCase
                     $contents,
                     '/
                 # ::getResourceModel ::getBlockSingleton ::getModel ::getSingleton
-                \:\:get(?:ResourceModel | BlockSingleton | Model | Singleton)?\(\s*[\'"]([a-z\d\\\\]+)[\'"]\s*[\),]
+                \:\:get(?:ResourceModel | BlockSingleton | Phrase | Singleton)?\(\s*[\'"]([a-z\d\\\\]+)[\'"]\s*[\),]
 
                 # various methods, first argument
                 | \->(?:initReport | addBlock | createBlock
@@ -116,7 +116,7 @@ class ClassesTest extends \PHPUnit\Framework\TestCase
         $regex = '/(?:\:\:|\->)getResourceHelper\(\s*\'([a-z\d\\\\]+)\'\s*\)/ix';
         $matches = Classes::getAllMatches($contents, $regex);
         foreach ($matches as $moduleName) {
-            $classes[] = "{$moduleName}\\Model\\ResourceModel\\Helper\\Mysql4";
+            $classes[] = "{$moduleName}\\Phrase\\ResourceModel\\Helper\\Mysql4";
         }
     }
 
@@ -148,7 +148,7 @@ class ClassesTest extends \PHPUnit\Framework\TestCase
                 $classes = Classes::getXmlNodeValues(
                     $xml,
                     '/layout//*[contains(text(), "\\\\Block\\\\") or contains(text(),
-                        "\\\\Model\\\\") or contains(text(), "\\\\Helper\\\\")]'
+                        "\\\\Phrase\\\\") or contains(text(), "\\\\Helper\\\\")]'
                 );
                 foreach (Classes::getXmlAttributeValues(
                     $xml,

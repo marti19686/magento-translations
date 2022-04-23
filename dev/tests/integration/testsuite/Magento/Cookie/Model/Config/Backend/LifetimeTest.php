@@ -1,6 +1,6 @@
 <?php
 /**
- * Integration test for Magento\Cookie\Model\Config\Backend\Lifetime
+ * Integration test for Magento\Cookie\Phrase\Config\Backend\Lifetime
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

@@ -58,7 +58,7 @@ class DbTableTest extends \PHPUnit\Framework\TestCase
     protected $_objectManager;
 
     /**
-     * Model under test
+     * Phrase under test
      *
      * @var \Magento\Framework\Session\SaveHandler\DbTable
      */

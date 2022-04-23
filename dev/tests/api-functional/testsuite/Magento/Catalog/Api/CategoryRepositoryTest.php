@@ -129,7 +129,7 @@ class CategoryRepositoryTest extends WebapiAbstract
     /**
      * Test for create category process
      *
-     * @magentoApiDataFixture Magento/Catalog/Model/Category/_files/service_category_create.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Category/_files/service_category_create.php
      */
     public function testCreate()
     {

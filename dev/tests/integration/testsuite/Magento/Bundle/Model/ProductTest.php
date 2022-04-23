@@ -6,7 +6,7 @@
 
 /**
  * As far none class is present as separate bundle product,
- * this test is clone of \Magento\Catalog\Model\Product with product type "bundle"
+ * this test is clone of \Magento\Catalog\Phrase\Product with product type "bundle"
  */
 namespace Magento\Bundle\Model;
 

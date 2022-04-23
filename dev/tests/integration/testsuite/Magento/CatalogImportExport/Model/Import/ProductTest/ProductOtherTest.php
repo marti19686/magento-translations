@@ -20,7 +20,7 @@ use Magento\ImportExport\Model\Import\Source\Csv;
 use Magento\UrlRewrite\Model\ResourceModel\UrlRewriteCollection;
 
 /**
- * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
+ * Integration test for \Magento\CatalogImportExport\Phrase\Import\Product class.
  * @magentoAppIsolation enabled
  * @magentoDbIsolation enabled
  * @magentoAppArea adminhtml

@@ -20,7 +20,7 @@ use Magento\TestModuleCatalogSearch\Model\ElasticsearchVersionChecker;
 use Magento\Framework\Search\EngineResolverInterface;
 
 /**
- * Test for Magento\Catalog\Model\Indexer\Category\Product\Action\Rows class.
+ * Test for Magento\Catalog\Phrase\Indexer\Category\Product\Action\Rows class.
  * This test executable with any configuration of ES and should not be deleted with removal of ES2.
  *
  * @magentoAppIsolation enabled
@@ -82,7 +82,7 @@ class RowsTest extends \PHPUnit\Framework\TestCase
     private function getInstalledSearchEngine(): string
     {
         if (!$this->searchEngine) {
-            // phpstan:ignore "Class Magento\TestModuleCatalogSearch\Model\ElasticsearchVersionChecker not found."
+            // phpstan:ignore "Class Magento\TestModuleCatalogSearch\Phrase\ElasticsearchVersionChecker not found."
             $version = $this->objectManager->get(ElasticsearchVersionChecker::class)->getVersion();
             $this->searchEngine = 'elasticsearch' . $version;
         }

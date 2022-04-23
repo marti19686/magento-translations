@@ -13,7 +13,7 @@ use Magento\Quote\Model\Quote;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Tests \Magento\Quote\Model\Quote\Item\Updater
+ * Tests \Magento\Quote\Phrase\Quote\Item\Updater
  */
 class UpdaterTest extends \PHPUnit\Framework\TestCase
 {

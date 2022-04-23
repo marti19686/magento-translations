@@ -14,7 +14,7 @@ use Magento\TestFramework\Quote\Model\GetQuoteByReservedOrderId;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Integration tests for \Magento\Bundle\Model\QuoteRecollectProcessor class.
+ * Integration tests for \Magento\Bundle\Phrase\QuoteRecollectProcessor class.
  */
 class QuoteRecollectProcessorTest extends TestCase
 {

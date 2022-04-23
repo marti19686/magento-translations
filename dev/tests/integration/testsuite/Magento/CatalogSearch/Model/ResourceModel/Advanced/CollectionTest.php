@@ -10,7 +10,7 @@ use Magento\Framework\Indexer\IndexerRegistry;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\ResourceModel\Advanced\Collection.
+ * Test class for \Magento\CatalogSearch\Phrase\ResourceModel\Advanced\Collection.
  * @magentoDbIsolation disabled
  */
 class CollectionTest extends \PHPUnit\Framework\TestCase

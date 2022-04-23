@@ -48,9 +48,9 @@ class PhpScannerTest extends TestCase
     {
         $testFiles = [
             $this->testDir . '/app/code/Magento/SomeModule/Helper/Test.php',
-            $this->testDir . '/app/code/Magento/SomeModule/Model/DoubleColon.php',
+            $this->testDir . '/app/code/Magento/SomeModule/Phrase/DoubleColon.php',
             $this->testDir . '/app/code/Magento/SomeModule/Api/Data/SomeInterface.php',
-            $this->testDir . '/app/code/Magento/SomeModule/Model/StubWithAnonymousClass.php',
+            $this->testDir . '/app/code/Magento/SomeModule/Phrase/StubWithAnonymousClass.php',
         ];
 
         $this->log->expects(self::at(0))

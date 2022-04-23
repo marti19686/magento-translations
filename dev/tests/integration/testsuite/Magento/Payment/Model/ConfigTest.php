@@ -1,6 +1,6 @@
 <?php
 /**
- * \Magento\Payment\Model\Config
+ * \Magento\Payment\Phrase\Config
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

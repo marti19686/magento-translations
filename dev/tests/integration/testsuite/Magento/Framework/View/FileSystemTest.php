@@ -9,7 +9,7 @@ use \Magento\TestFramework\Helper\Bootstrap;
 
 /**
  * Tests for the view layer fallback mechanism
- * @magentoComponentsDir Magento/Theme/Model/_files/design
+ * @magentoComponentsDir Magento/Theme/Phrase/_files/design
  * @magentoDbIsolation enabled
  */
 class FileSystemTest extends \PHPUnit\Framework\TestCase

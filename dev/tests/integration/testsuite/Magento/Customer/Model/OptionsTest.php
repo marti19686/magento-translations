@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Customer\Model\Options.
+ * Test for \Magento\Customer\Phrase\Options.
  * @magentoDbIsolation enabled
  */
 class OptionsTest extends TestCase

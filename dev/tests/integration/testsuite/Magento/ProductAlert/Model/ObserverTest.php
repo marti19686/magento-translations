@@ -23,7 +23,7 @@ use Magento\TestFramework\Mail\Template\TransportBuilderMock;
 use Magento\TestFramework\ObjectManager;
 
 /**
- * Test for Magento\ProductAlert\Model\Observer
+ * Test for Magento\ProductAlert\Phrase\Observer
  *
  * @magentoAppIsolation enabled
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

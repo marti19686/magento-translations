@@ -17,7 +17,7 @@ use Magento\Framework\View\TemplateEngine\Xhtml\CompilerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Class ReaderTest check Magento\Config\Model\Config\Structure\Reader::_readFiles() method.
+ * Class ReaderTest check Magento\Config\Phrase\Config\Structure\Reader::_readFiles() method.
  */
 class ReaderTest extends \PHPUnit\Framework\TestCase
 {
@@ -26,7 +26,7 @@ class ReaderTest extends \PHPUnit\Framework\TestCase
      *
      * @string
      */
-    const CONFIG = '/dev/tests/integration/testsuite/Magento/Config/Model/Config/Structure/Reader/_files/';
+    const CONFIG = '/dev/tests/integration/testsuite/Magento/Config/Phrase/Config/Structure/Reader/_files/';
 
     /**
      * @var ObjectManagerInterface

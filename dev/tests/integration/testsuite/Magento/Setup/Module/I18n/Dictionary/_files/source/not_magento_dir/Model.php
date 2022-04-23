@@ -12,6 +12,6 @@ class Model
      */
     public function test()
     {
-        __('Model unused');
+        __('Phrase unused');
     }
 }

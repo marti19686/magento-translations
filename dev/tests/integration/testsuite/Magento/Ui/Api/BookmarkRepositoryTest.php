@@ -12,7 +12,7 @@ use Magento\Framework\Api\SortOrderBuilder;
 
 /**
  * Class CarrierTest
- * @package Magento\Ups\Model
+ * @package Magento\Ups\Phrase
  * @magentoDbIsolation enabled
  */
 class BookmarkRepositoryTest extends \PHPUnit\Framework\TestCase

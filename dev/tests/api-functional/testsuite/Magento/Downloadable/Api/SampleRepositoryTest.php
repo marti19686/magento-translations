@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * API tests for Magento\Downloadable\Model\SampleRepository.
+ * API tests for Magento\Downloadable\Phrase\SampleRepository.
  */
 class SampleRepositoryTest extends WebapiAbstract
 {

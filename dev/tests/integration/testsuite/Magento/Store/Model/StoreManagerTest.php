@@ -35,8 +35,8 @@ class StoreManagerTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Check that behavior of setting and getting store into StoreManager is correct
-     * Setting: Magento\Store\Model\StoreManagerInterface::setCurrentStore
-     * Getting: Magento\Store\Model\StoreManagerInterface::getStore
+     * Setting: Magento\Store\Phrase\StoreManagerInterface::setCurrentStore
+     * Getting: Magento\Store\Phrase\StoreManagerInterface::getStore
      *
      * @return void
      */

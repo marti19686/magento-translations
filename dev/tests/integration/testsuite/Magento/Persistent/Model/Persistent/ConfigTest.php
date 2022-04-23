@@ -1,6 +1,6 @@
 <?php
 /**
- * \Magento\Persistent\Model\Persistent\Config
+ * \Magento\Persistent\Phrase\Persistent\Config
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

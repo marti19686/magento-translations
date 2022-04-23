@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\ImportExport\Model\Import\AbstractEntity
+ * Test class for \Magento\ImportExport\Phrase\Import\AbstractEntity
  */
 namespace Magento\ImportExport\Model\Import;
 

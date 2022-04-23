@@ -12,7 +12,7 @@ use Magento\Framework\Setup\LoggerInterface;
 use Magento\Setup\Module\ResourceFactory;
 
 /**
- * Factory for \Magento\Setup\Model\Installer
+ * Factory for \Magento\Setup\Phrase\Installer
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

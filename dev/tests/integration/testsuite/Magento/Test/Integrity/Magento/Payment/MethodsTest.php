@@ -42,7 +42,7 @@ class MethodsTest extends \PHPUnit\Framework\TestCase
             /**
              * Note that $code is not whatever the payment method getCode() returns
              */
-            $this->fail("Model of '{$code}' payment method is not found.");
+            $this->fail("Phrase of '{$code}' payment method is not found.");
         }
         $model = Bootstrap::getObjectManager()->create($methodClass);
         if ($code == \Magento\Payment\Model\Method\Substitution::CODE) {

@@ -74,9 +74,9 @@ class ProductListTest extends TestCase
                 $multiselectAttributeOptionIds[] = $option->getValue();
             }
         }
-        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,'
+        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Combine`,'
             . '`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:'
-            . '^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,'
+            . '^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Product`,'
             . '`attribute`:`multiselect_attribute`,`operator`:`^[^]`,'
             . '`value`:[`' . implode(',', $multiselectAttributeOptionIds) . '`]^]^]';
         $this->block->setData('conditions_encoded', $encodedConditions);
@@ -110,10 +110,10 @@ class ProductListTest extends TestCase
                 $dropdownAttributeOptionIds[] = $option->getValue();
             }
         }
-        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,' .
-            '`aggregator`:`any`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule|' .
+        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Combine`,' .
+            '`aggregator`:`any`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule|' .
             '|Condition||Product`,`attribute`:`dropdown_attribute`,`operator`:`==`,`value`:`'
-            . $dropdownAttributeOptionIds[0] . '`^],`1--2`:^[`type`:`Magento||CatalogWidget||Model||Rule|' .
+            . $dropdownAttributeOptionIds[0] . '`^],`1--2`:^[`type`:`Magento||CatalogWidget||Phrase||Rule|' .
             '|Condition||Product`,`attribute`:`dropdown_attribute`,`operator`:`==`,`value`:`'
             . $dropdownAttributeOptionIds[1] . '`^]^]';
         $this->block->setData('conditions_encoded', $encodedConditions);
@@ -176,13 +176,13 @@ class ProductListTest extends TestCase
     public function createCollectionForSkuDataProvider()
     {
         return [
-            'contains' => ['^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,'
+            'contains' => ['^[`1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Combine`,'
                 . '`aggregator`:`all`,`value`:`1`,`new_child`:``^],'
-                . '`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,'
+                . '`1--1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Product`,'
                 . '`attribute`:`sku`,`operator`:`^[^]`,`value`:`virtual`^]^]' , 'virtual-product'],
-            'not contains' => ['^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,'
+            'not contains' => ['^[`1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Combine`,'
                 . '`aggregator`:`all`,`value`:`1`,`new_child`:``^],'
-                . '`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,'
+                . '`1--1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Product`,'
                 . '`attribute`:`sku`,`operator`:`!^[^]`,`value`:`virtual`^]^]', 'product-with-xss']
         ];
     }
@@ -197,9 +197,9 @@ class ProductListTest extends TestCase
      */
     public function testProductListWithDateAttribute()
     {
-        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,'
+        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Combine`,'
             . '`aggregator`:`all`,`value`:`1`,`new_child`:``^],'
-            . '`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,'
+            . '`1--1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Product`,'
             . '`attribute`:`date_attribute`,`operator`:`==`,`value`:`' . date('Y-m-d') . '`^]^]';
         $this->block->setData('conditions_encoded', $encodedConditions);
 
@@ -239,9 +239,9 @@ class ProductListTest extends TestCase
             ->getItemByColumnValue('name', 'Default Category')
             ->getId();
 
-        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,
+        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Combine`,
         `aggregator`:`all`,`value`:`1`,`new_child`:``^],
-        `1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,
+        `1--1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Product`,
         `attribute`:`category_ids`,
         `operator`:`==`,`value`:`' . $rootCategoryId . '`^]^]';
 
@@ -270,9 +270,9 @@ class ProductListTest extends TestCase
      */
     public function testPriceFilter(string $operator, int $value, array $matches)
     {
-        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,
+        $encodedConditions = '^[`1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Combine`,
         `aggregator`:`all`,`value`:`1`,`new_child`:``^],
-        `1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,
+        `1--1`:^[`type`:`Magento||CatalogWidget||Phrase||Rule||Condition||Product`,
         `attribute`:`price`,
         `operator`:`' . $operator . '`,`value`:`' . $value . '`^]^]';
 

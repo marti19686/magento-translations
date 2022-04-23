@@ -141,8 +141,8 @@ class InstanceTest extends \PHPUnit\Framework\TestCase
             '<argument name="name" xsi:type="string">conditions_encoded</argument>',
             $result
         );
-        $this->assertStringContainsString('`Magento||CatalogWidget||Model||Rule||Condition||Combine`', $result);
-        $this->assertStringContainsString('`Magento||CatalogWidget||Model||Rule||Condition||Product`', $result);
+        $this->assertStringContainsString('`Magento||CatalogWidget||Phrase||Rule||Condition||Combine`', $result);
+        $this->assertStringContainsString('`Magento||CatalogWidget||Phrase||Rule||Condition||Product`', $result);
     }
 
     /**

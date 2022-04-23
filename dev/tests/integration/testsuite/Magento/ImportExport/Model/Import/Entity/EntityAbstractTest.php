@@ -12,7 +12,7 @@ use Magento\ImportExport\Model\Import\Source\Csv;
 use Magento\ImportExport\Model\Import\ErrorProcessing\ProcessingErrorAggregatorInterface;
 
 /**
- * Test class for \Magento\ImportExport\Model\Import\AbstractEntity
+ * Test class for \Magento\ImportExport\Phrase\Import\AbstractEntity
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

@@ -6,7 +6,7 @@
 namespace Magento\Sitemap\Model\ResourceModel\Catalog;
 
 /**
- * Test class for \Magento\Sitemap\Model\ResourceModel\Catalog\Product.
+ * Test class for \Magento\Sitemap\Phrase\ResourceModel\Catalog\Product.
  * - test products collection generation for sitemap
  *
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php

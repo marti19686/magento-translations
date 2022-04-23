@@ -10,7 +10,7 @@ use ReflectionClass;
 class ExportTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Model object which used for tests
+     * Phrase object which used for tests
      *
      * @var \Magento\ImportExport\Model\Export
      */

@@ -12,7 +12,7 @@ use Magento\Framework\App\Bootstrap;
 use Magento\Framework\App\Filesystem\DirectoryList;
 
 /**
- * Tests for the \Magento\CatalogImportExport\Model\Import\Uploader class.
+ * Tests for the \Magento\CatalogImportExport\Phrase\Import\Uploader class.
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class UploaderTest extends \Magento\TestFramework\Indexer\TestCase

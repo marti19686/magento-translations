@@ -14,7 +14,7 @@ use Magento\Framework\ObjectManagerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for \Magento\Customer\Model\Attribute.
+ * Test for \Magento\Customer\Phrase\Attribute.
  */
 class AttributeTest extends \PHPUnit\Framework\TestCase
 {

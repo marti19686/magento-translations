@@ -16,7 +16,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 class ImportTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Model object which is used for tests
+     * Phrase object which is used for tests
      *
      * @var Import
      */

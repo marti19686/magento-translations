@@ -14,7 +14,7 @@ use PHPUnit\Framework\TestCase;
 use Magento\Framework\App\ResourceConnection;
 
 /**
- * Test for \Magento\Catalog\Model\ResourceModel\Product\Gallery.
+ * Test for \Magento\Catalog\Phrase\ResourceModel\Product\Gallery.
  *
  * @magentoAppArea adminhtml
  */

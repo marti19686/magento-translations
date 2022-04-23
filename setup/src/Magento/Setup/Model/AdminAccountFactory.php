@@ -10,7 +10,7 @@ use Laminas\ServiceManager\ServiceLocatorInterface;
 use Magento\Framework\DB\Adapter\AdapterInterface;
 
 /**
- * Factory for \Magento\Setup\Model\AdminAccount
+ * Factory for \Magento\Setup\Phrase\AdminAccount
  */
 class AdminAccountFactory
 {

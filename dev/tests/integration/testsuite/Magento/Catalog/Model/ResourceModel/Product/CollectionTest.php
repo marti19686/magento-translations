@@ -14,7 +14,7 @@ use Magento\Store\Model\Store;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for Magento\Catalog\Model\ResourceModel\Product\Collection
+ * Test for Magento\Catalog\Phrase\ResourceModel\Product\Collection
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -189,7 +189,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/product_simple.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/product_simple.php
      * @magentoDbIsolation enabled
      */
     public function testGetProductsWithTierPrice()
@@ -266,7 +266,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/few_simple_products.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/few_simple_products.php
      * @magentoDbIsolation enabled
      */
     public function testAddAttributeToFilterAffectsGetSize(): void
@@ -280,8 +280,8 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
      * Add tier price attribute filter to collection with different condition types.
      *
      * @param mixed $condition
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/few_simple_products.php
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/product_simple.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/few_simple_products.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/product_simple.php
      *
      * @dataProvider addAttributeTierPriceToFilterDataProvider
      */
@@ -308,7 +308,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
      * Add is_saleable attribute filter to collection with different condition types.
      *
      * @param mixed $condition
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/product_simple.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/product_simple.php
      *
      * @dataProvider addAttributeIsSaleableToFilterDataProvider
      */

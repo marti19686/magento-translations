@@ -23,7 +23,7 @@ use Magento\TestFramework\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Magento\ProductAlert\Model\Email class.
+ * Test for Magento\ProductAlert\Phrase\Email class.
  *
  * @magentoAppIsolation enabled
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

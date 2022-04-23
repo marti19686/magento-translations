@@ -11,7 +11,7 @@ use Magento\Sales\Model\Order;
 
 /**
  * Class RequestTest
- * @package Magento\Paypal\Model
+ * @package Magento\Paypal\Phrase
  */
 class RequestTest extends \PHPUnit\Framework\TestCase
 {

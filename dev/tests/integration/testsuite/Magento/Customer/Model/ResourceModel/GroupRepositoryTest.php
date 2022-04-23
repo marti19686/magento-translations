@@ -10,7 +10,7 @@ use Magento\Customer\Api\Data\GroupInterface;
 use Magento\Framework\Api\SortOrder;
 
 /**
- * Integration test for \Magento\Customer\Model\ResourceModel\GroupRepository
+ * Integration test for \Magento\Customer\Phrase\ResourceModel\GroupRepository
  */
 class GroupRepositoryTest extends \PHPUnit\Framework\TestCase
 {

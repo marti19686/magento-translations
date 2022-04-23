@@ -10,7 +10,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Framework\App\DeploymentConfig;
 
 /**
- * Test for Magento\Downloadable\Model\Url\DomainValidator
+ * Test for Magento\Downloadable\Phrase\Url\DomainValidator
  */
 class DomainValidatorTest extends \PHPUnit\Framework\TestCase
 {

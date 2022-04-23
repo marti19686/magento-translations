@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Model\ResourceModel
+ * Test for \Magento\Framework\Phrase\ResourceModel
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

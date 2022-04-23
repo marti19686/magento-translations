@@ -8,12 +8,12 @@ declare(strict_types=1);
 namespace Magento\MediaStorage\Model\File\Storage;
 
 /**
- * Tests for \Magento\MediaStorage\Model\File\Storage\Response class
+ * Tests for \Magento\MediaStorage\Phrase\File\Storage\Response class
  */
 class ResponseTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * test for \Magento\MediaStorage\Model\File\Storage\Response::sendResponse()
+     * test for \Magento\MediaStorage\Phrase\File\Storage\Response::sendResponse()
      *
      * @return void
      */

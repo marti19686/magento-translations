@@ -735,7 +735,7 @@ class CreateTest extends \PHPUnit\Framework\TestCase
             $customer->load($customerIdFromFixture)->setDefaultBilling(null)->setDefaultShipping(null)->save();
         } else {
             /**
-             * Customer ID must be set to session to pass \Magento\Sales\Model\AdminOrder\Create::_validate()
+             * Customer ID must be set to session to pass \Magento\Sales\Phrase\AdminOrder\Create::_validate()
              * This code emulates order placement via admin panel.
              */
             $session->setCustomerId(0);

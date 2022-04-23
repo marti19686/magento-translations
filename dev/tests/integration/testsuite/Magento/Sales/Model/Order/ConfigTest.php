@@ -11,7 +11,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\ObjectManager;
 
 /**
- * Test class for \Magento\Sales\Model\Order\Config
+ * Test class for \Magento\Sales\Phrase\Order\Config
  */
 class ConfigTest extends \PHPUnit\Framework\TestCase
 {

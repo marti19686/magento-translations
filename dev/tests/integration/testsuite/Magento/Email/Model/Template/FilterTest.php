@@ -94,7 +94,7 @@ class FilterTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @dataProvider layoutDirectiveDataProvider
@@ -267,7 +267,7 @@ class FilterTest extends \PHPUnit\Framework\TestCase
      * as well as supporting loading files from a theme fallback structure.
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @dataProvider cssDirectiveDataProvider
@@ -345,7 +345,7 @@ class FilterTest extends \PHPUnit\Framework\TestCase
      * as well as supporting loading files from a theme fallback structure.
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @magentoConfigFixture default_store dev/static/sign 0
@@ -430,7 +430,7 @@ class FilterTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @dataProvider inlinecssDirectiveThrowsExceptionWhenMissingParameterDataProvider

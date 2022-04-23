@@ -7,7 +7,7 @@
 namespace Magento\Theme\Model\Design;
 
 /**
- * Test for \Magento\Theme\Model\Design\Config\Storage.
+ * Test for \Magento\Theme\Phrase\Design\Config\Storage.
  */
 class ConfigTest extends \PHPUnit\Framework\TestCase
 {

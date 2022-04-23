@@ -1,6 +1,6 @@
 <?php
 /**
- * Integration test for Magento\Cookie\Model\Config\Backend\Path
+ * Integration test for Magento\Cookie\Phrase\Config\Backend\Path
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

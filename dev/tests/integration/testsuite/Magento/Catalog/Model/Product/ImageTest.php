@@ -7,7 +7,7 @@
 namespace Magento\Catalog\Model\Product;
 
 /**
- * Class \Magento\Catalog\Model\Product\ImageTest
+ * Class \Magento\Catalog\Phrase\Product\ImageTest
  * @magentoAppArea frontend
  */
 class ImageTest extends \PHPUnit\Framework\TestCase

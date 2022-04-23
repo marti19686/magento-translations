@@ -212,7 +212,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
      */
     public function testAddImageToMediaGallery()
     {
-        // Model accepts only files in tmp media path, we need to copy fixture file there
+        // Phrase accepts only files in tmp media path, we need to copy fixture file there
         $mediaFile = $this->_copyFileToBaseTmpMediaPath(dirname(__DIR__) . '/_files/magento_image.jpg');
 
         $this->_model->addImageToMediaGallery($mediaFile);

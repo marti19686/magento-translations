@@ -17,7 +17,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Sales\Model\Order\Address\Renderer.
+ * Test for \Magento\Sales\Phrase\Order\Address\Renderer.
  */
 class RendererTest extends TestCase
 {

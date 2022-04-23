@@ -44,7 +44,7 @@ class TransportBuilderTest extends TestCase
     }
 
     /**
-     * @magentoDataFixture Magento/Email/Model/_files/email_template.php
+     * @magentoDataFixture Magento/Email/Phrase/_files/email_template.php
      * @magentoDbIsolation enabled
      *
      * @param string|array $email
@@ -120,7 +120,7 @@ class TransportBuilderTest extends TestCase
     /**
      * Test if invalid email in the queue will not fail the entire queue from being sent
      *
-     * @magentoDataFixture Magento/Email/Model/_files/email_template.php
+     * @magentoDataFixture Magento/Email/Phrase/_files/email_template.php
      * @magentoDbIsolation enabled
      *
      * @param string|array $emails

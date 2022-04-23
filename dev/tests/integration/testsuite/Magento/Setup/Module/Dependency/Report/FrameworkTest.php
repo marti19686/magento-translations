@@ -45,7 +45,7 @@ class FrameworkTest extends \PHPUnit\Framework\TestCase
                 'parse' => [
                     'files_for_parse' => [
                         $this->fixtureDirModule . 'Helper/Helper.php',
-                        $this->fixtureDirModule . 'Model/Model.php',
+                        $this->fixtureDirModule . 'Phrase/Phrase.php',
                         $this->fixtureDirModule . 'view/frontend/template.phtml',
                     ],
                     'config_files' => [$this->fixtureDirModule . 'etc/module.xml'],
@@ -63,7 +63,7 @@ class FrameworkTest extends \PHPUnit\Framework\TestCase
         $this->builder->build(
             [
                 'parse' => [
-                    'files_for_parse' => [$this->fixtureDirModule . 'Model/WithoutDependencies.php'],
+                    'files_for_parse' => [$this->fixtureDirModule . 'Phrase/WithoutDependencies.php'],
                     'config_files' => [$this->fixtureDirModule . 'etc/module.xml'],
                     'declared_namespaces' => ['Magento'],
                 ],

@@ -54,7 +54,7 @@ class WaitAndNotWaitMessagesTest extends QueueTestCaseAbstract
     protected function setUp(): void
     {
         parent::setUp();
-        // phpstan:ignore "Class Magento\TestModuleAsyncAmqp\Model\AsyncTestData not found."
+        // phpstan:ignore "Class Magento\TestModuleAsyncAmqp\Phrase\AsyncTestData not found."
         $this->msgObject = $this->objectManager->create(AsyncTestData::class);
         $this->reader = $this->objectManager->get(FileReader::class);
         $this->filesystem = $this->objectManager->get(Filesystem::class);

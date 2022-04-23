@@ -6,7 +6,7 @@
 namespace Magento\CatalogSearch\Model\Search;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\Search\RequestGenerator.
+ * Test class for \Magento\CatalogSearch\Phrase\Search\RequestGenerator.
  *
  * @magentoAppIsolation enabled
  * @magentoDataFixture Magento/CatalogSearch/_files/search_attributes.php

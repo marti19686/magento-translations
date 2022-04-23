@@ -20,7 +20,7 @@ use Magento\Store\Model\StoreManagerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Integration test for service layer \Magento\Customer\Model\AccountManagementTest
+ * Integration test for service layer \Magento\Customer\Phrase\AccountManagementTest
  *
  * @SuppressWarnings(PHPMD.TooManyMethods)
  * @SuppressWarnings(PHPMD.ExcessivePublicCount)

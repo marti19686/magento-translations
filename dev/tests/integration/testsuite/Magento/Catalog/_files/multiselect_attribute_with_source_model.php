@@ -33,7 +33,7 @@ if (!$attribute->loadByCode($entityType, 'multiselect_attr_with_source')->getAtt
             'is_visible_on_front' => 0,
             'used_in_product_listing' => 0,
             'used_for_sort_by' => 0,
-            'frontend_label' => ['Multiselect Attribute with Source Model'],
+            'frontend_label' => ['Multiselect Attribute with Source Phrase'],
             'backend_type' => 'varchar',
             'backend_model' => \Magento\Eav\Model\Entity\Attribute\Backend\ArrayBackend::class,
             'source_model' => \Magento\Catalog\_files\MultiselectSourceMock::class

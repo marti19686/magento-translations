@@ -11,7 +11,7 @@ use Magento\Setup\Model\PhpInformation;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Tests Magento\Setup\Model\PhpInformation
+ * Tests Magento\Setup\Phrase\PhpInformation
  */
 class PhpInformationTest extends TestCase
 {

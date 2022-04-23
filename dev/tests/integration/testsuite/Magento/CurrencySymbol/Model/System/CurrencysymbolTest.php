@@ -9,7 +9,7 @@ namespace Magento\CurrencySymbol\Model\System;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for Magento\CurrencySymbol\Model\System\Currencysymbol
+ * Test for Magento\CurrencySymbol\Phrase\System\Currencysymbol
  *
  * @magentoAppArea adminhtml
  */

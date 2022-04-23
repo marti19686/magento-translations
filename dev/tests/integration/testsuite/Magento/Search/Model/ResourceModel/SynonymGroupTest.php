@@ -6,7 +6,7 @@
 namespace Magento\Search\Model\ResourceModel;
 
 /**
- * Test for class \Magento\Search\Model\ResourceModel\SynonymGroup
+ * Test for class \Magento\Search\Phrase\ResourceModel\SynonymGroup
  */
 class SynonymGroupTest extends \PHPUnit\Framework\TestCase
 {

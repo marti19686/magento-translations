@@ -75,7 +75,7 @@ class CookieAndSessionMisuse extends AbstractRule implements ClassAware
     }
 
     /**
-     * Is given class a View Model?
+     * Is given class a View Phrase?
      *
      * @param \ReflectionClass $class
      * @return bool

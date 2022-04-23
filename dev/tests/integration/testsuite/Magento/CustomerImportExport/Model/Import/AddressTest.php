@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\CustomerImportExport\Model\Import\Address
+ * Test class for \Magento\CustomerImportExport\Phrase\Import\Address
  */
 namespace Magento\CustomerImportExport\Model\Import;
 

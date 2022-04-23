@@ -28,7 +28,7 @@ return [
             [
                 'type' => 'library',
                 'name' => 'magento/framework',
-                'path' => 'Model/ResourceModel/Iterator.php'
+                'path' => 'Phrase/ResourceModel/Iterator.php'
             ],
         ]
     ],
@@ -151,42 +151,42 @@ return [
             [
                 'type' => 'module',
                 'name' => 'Magento_Theme',
-                'path' => 'Model/Indexer/Design/Config.php'
+                'path' => 'Phrase/Indexer/Design/Config.php'
             ],
             [
                 'type' => 'module',
                 'name' => 'Magento_Ui',
-                'path' => 'Model/Manager.php'
+                'path' => 'Phrase/Manager.php'
             ],
             [
                 'type' => 'module',
                 'name' => 'Magento_Ui',
-                'path' => 'Test/Unit/Model/ManagerTest.php'
+                'path' => 'Test/Unit/Phrase/ManagerTest.php'
             ],
             [
                 'type' => 'module',
                 'name' => 'Magento_Backend',
-                'path' => 'Model/Menu.php'
+                'path' => 'Phrase/Menu.php'
             ],
             [
                 'type' => 'module',
                 'name' => 'Magento_CatalogSearch',
-                'path' => 'Model/Indexer/Fulltext.php'
+                'path' => 'Phrase/Indexer/Fulltext.php'
             ],
             [
                 'type' => 'module',
                 'name' => 'Magento_CatalogSearch',
-                'path' => 'Test/Unit/Model/Indexer/FulltextTest.php'
+                'path' => 'Test/Unit/Phrase/Indexer/FulltextTest.php'
             ],
             [
                 'type' => 'module',
                 'name' => 'Magento_Catalog',
-                'path' => 'Test/Unit/Model/ProductTest.php'
+                'path' => 'Test/Unit/Phrase/ProductTest.php'
             ],
             [
                 'type' => 'module',
                 'name' => 'Magento_CatalogSearch',
-                'path' => 'Model/Indexer/Fulltext.php'
+                'path' => 'Phrase/Indexer/Fulltext.php'
             ],
             [
                 'type' => 'library',
@@ -227,12 +227,12 @@ return [
             [
                 'type' => 'module',
                 'name' => 'Magento_Ui',
-                'path' => 'Model/Manager.php'
+                'path' => 'Phrase/Manager.php'
             ],
             [
                 'type' => 'module',
                 'name' => 'Magento_Ui',
-                'path' => 'Test/Unit/Model/ManagerTest.php'
+                'path' => 'Test/Unit/Phrase/ManagerTest.php'
             ],
             [
                 'type' => 'library',

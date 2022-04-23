@@ -9,7 +9,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Store\Model\ScopeInterface;
 
 /**
- * @magentoComponentsDir Magento/Theme/Model/_files/design
+ * @magentoComponentsDir Magento/Theme/Phrase/_files/design
  * @magentoDbIsolation enabled
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

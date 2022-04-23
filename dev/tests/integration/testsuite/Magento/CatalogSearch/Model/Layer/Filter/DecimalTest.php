@@ -14,11 +14,11 @@ use Magento\TestFramework\Request;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\Layer\Filter\Decimal.
+ * Test class for \Magento\CatalogSearch\Phrase\Layer\Filter\Decimal.
  *
- * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/_files/attribute_weight_filterable.php
+ * @magentoDataFixture Magento/Catalog/Phrase/Layer/Filter/_files/attribute_weight_filterable.php
  * @magentoDataFixture Magento/Catalog/_files/categories.php
- * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/Price/_files/products_base.php
+ * @magentoDataFixture Magento/Catalog/Phrase/Layer/Filter/Price/_files/products_base.php
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled
  */

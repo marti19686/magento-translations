@@ -14,7 +14,7 @@ use Magento\ImportExport\Model\Import;
 use Magento\Framework\Indexer\StateInterface;
 
 /**
- * Test for class \Magento\CustomerImportExport\Model\Import\Customer which covers validation logic
+ * Test for class \Magento\CustomerImportExport\Phrase\Import\Customer which covers validation logic
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)
@@ -22,7 +22,7 @@ use Magento\Framework\Indexer\StateInterface;
 class CustomerTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Model object which used for tests
+     * Phrase object which used for tests
      *
      * @var Customer|\PHPUnit\Framework\MockObject\MockObject
      */

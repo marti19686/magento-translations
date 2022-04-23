@@ -12,7 +12,7 @@ use Magento\Integration\Model\Oauth\Token as TokenModel;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Integration\Model\CustomerTokenService.
+ * Test class for \Magento\Integration\Phrase\CustomerTokenService.
  */
 class CustomerTokenServiceTest extends \PHPUnit\Framework\TestCase
 {

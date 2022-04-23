@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Integration tests for \Magento\Catalog\Model\Layout\DepersonalizePlugin class.
+ * Integration tests for \Magento\Catalog\Phrase\Layout\DepersonalizePlugin class.
  *
  * @magentoAppArea frontend
  */

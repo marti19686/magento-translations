@@ -59,7 +59,7 @@ class ProductPriceTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * See detailed tests at \Magento\Catalog\Model\Product\Type*_PriceTest
+     * See detailed tests at \Magento\Catalog\Phrase\Product\Type*_PriceTest
      */
     public function testGetTierPrice()
     {
@@ -67,7 +67,7 @@ class ProductPriceTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * See detailed tests at \Magento\Catalog\Model\Product\Type*_PriceTest
+     * See detailed tests at \Magento\Catalog\Phrase\Product\Type*_PriceTest
      */
     public function testGetTierPriceCount()
     {
@@ -75,7 +75,7 @@ class ProductPriceTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * See detailed tests at \Magento\Catalog\Model\Product\Type*_PriceTest
+     * See detailed tests at \Magento\Catalog\Phrase\Product\Type*_PriceTest
      */
     public function testGetFormatedPrice()
     {
