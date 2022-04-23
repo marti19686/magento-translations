@@ -5,14 +5,14 @@
  */
 
 /**
- * Test class for \Magento\ImportExport\Model\Import\Entity\AbstractEav
+ * Test class for \Magento\ImportExport\Phrase\Import\Entity\AbstractEav
  */
 namespace Magento\ImportExport\Model\Import\Entity;
 
 class EavAbstractTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Model object which used for tests
+     * Phrase object which used for tests
      *
      * @var \Magento\ImportExport\Model\Import\Entity\AbstractEav|\PHPUnit\Framework\MockObject\MockObject
      */

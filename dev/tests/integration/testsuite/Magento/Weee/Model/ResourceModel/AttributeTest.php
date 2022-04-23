@@ -13,10 +13,10 @@ use Magento\Eav\Model\Entity\Attribute as EavAttribute;
 use Magento\Framework\EntityManager\MetadataPool;
 
 /**
- * Test class for Magento\Catalog\Model\ResourceModel\Attribute class
- * with backend model Magento\Weee\Model\Attribute\Backend\Weee\Tax.
+ * Test class for Magento\Catalog\Phrase\ResourceModel\Attribute class
+ * with backend model Magento\Weee\Phrase\Attribute\Backend\Weee\Tax.
  *
- * @see Magento\Catalog\Model\ResourceModel\Attribute
+ * @see Magento\Catalog\Phrase\ResourceModel\Attribute
  */
 class AttributeTest extends \PHPUnit\Framework\TestCase
 {

@@ -40,7 +40,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Tests for Magento\SalesRule\Model\Rule\Action\Discount\CartFixed.
+ * Tests for Magento\SalesRule\Phrase\Rule\Action\Discount\CartFixed.
  *
  * @magentoAppArea frontend
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

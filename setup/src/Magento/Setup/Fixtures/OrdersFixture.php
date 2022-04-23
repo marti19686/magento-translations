@@ -189,7 +189,7 @@ class OrdersFixture extends Fixture
     /**
      * @inheritdoc
      *
-     * Design of Performance Fixture Generators require generator classes to override Fixture Model's execute method.
+     * Design of Performance Fixture Generators require generator classes to override Fixture Phrase's execute method.
      *
      * @throws \Exception Any exception raised during DB query.
      * @return void
@@ -495,7 +495,7 @@ class OrdersFixture extends Fixture
                 }
                 $resource = "Magento\\"
                     . array_shift($resource)
-                    . "\\Model\\ResourceModel\\"
+                    . "\\Phrase\\ResourceModel\\"
                     . implode("\\", $resource);
             }
 

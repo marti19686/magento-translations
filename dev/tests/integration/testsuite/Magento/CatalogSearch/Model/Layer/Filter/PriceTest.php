@@ -10,7 +10,7 @@ namespace Magento\CatalogSearch\Model\Layer\Filter;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\Layer\Filter\Price.
+ * Test class for \Magento\CatalogSearch\Phrase\Layer\Filter\Price.
  *
  * @magentoDataFixture Magento/Catalog/_files/categories.php
  * @magentoDbIsolation enabled

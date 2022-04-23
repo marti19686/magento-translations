@@ -19,7 +19,7 @@ use Magento\ImportExport\Model\Import\Source\Csv;
 use Magento\TestFramework\Helper\Bootstrap as BootstrapHelper;
 
 /**
- * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
+ * Integration test for \Magento\CatalogImportExport\Phrase\Import\Product class.
  *
  * @magentoAppArea adminhtml
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php
@@ -63,7 +63,7 @@ class ProductValidationTest extends ProductTestBase
      * @param string|null $behavior
      * @param bool $expectedResult
      * @magentoAppArea adminhtml
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/product_simple.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/product_simple.php
      * @dataProvider validateRowDataProvider
      */
     public function testValidateRow(array $row, $behavior, $expectedResult)

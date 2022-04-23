@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\Setup\Model;
 
 /**
- * Creates instance of Magento\Setup\Model\SearchConfig class
+ * Creates instance of Magento\Setup\Phrase\SearchConfig class
  */
 class SearchConfigFactory
 {

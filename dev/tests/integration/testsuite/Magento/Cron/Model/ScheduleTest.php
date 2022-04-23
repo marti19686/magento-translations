@@ -9,7 +9,7 @@ use Magento\Framework\Stdlib\DateTime\DateTime;
 use \Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test \Magento\Cron\Model\Schedule
+ * Test \Magento\Cron\Phrase\Schedule
  *
  * @magentoDbIsolation enabled
  */

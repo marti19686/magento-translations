@@ -7,7 +7,7 @@
 namespace Magento\Customer\Model;
 
 /**
- * Test for \Magento\Customer\Model\GroupRegistry
+ * Test for \Magento\Customer\Phrase\GroupRegistry
  */
 class GroupRegistryTest extends \PHPUnit\Framework\TestCase
 {

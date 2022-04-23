@@ -547,7 +547,7 @@ class QuoteGenerator
                 }
                 $resource = "Magento\\"
                     . array_shift($resource)
-                    . "\\Model\\ResourceModel\\"
+                    . "\\Phrase\\ResourceModel\\"
                     . implode("\\", $resource);
             }
 

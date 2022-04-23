@@ -35,17 +35,17 @@ class AgreementTest extends \Magento\TestFramework\TestCase\AbstractController
             ->expects($this->any())
             ->method('getParam')
             ->willReturnMap(
-                
+
                     [
                         ['payment_method', null, $paymentMethod],
                         ['token', null, $token],
                     ]
-                
+
             );
 
         /**
          * Disable billing agreement placement using calls to remote system
-         * in \Magento\Paypal\Model\Billing\Agreement::place()
+         * in \Magento\Paypal\Phrase\Billing\Agreement::place()
          */
         $objectManagerMock = $this->createMock(\Magento\Framework\ObjectManagerInterface::class);
         $paymentMethodMock = $this->createPartialMock(
@@ -77,12 +77,12 @@ class AgreementTest extends \Magento\TestFramework\TestCase\AbstractController
             ->expects($this->any())
             ->method('get')
             ->willReturnMap(
-                
+
                     [
                         [\Magento\Store\Model\StoreManager::class, $storeManager],
                         [\Magento\Customer\Model\Session::class, $customerSession],
                     ]
-                
+
             );
         $contextMock = $objectManager->create(
             \Magento\Framework\App\Action\Context::class,

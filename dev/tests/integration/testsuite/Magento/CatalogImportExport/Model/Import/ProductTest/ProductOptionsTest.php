@@ -13,7 +13,7 @@ use Magento\CatalogImportExport\Model\Import\ProductTestBase;
 use Magento\Store\Model\StoreManagerInterface;
 
 /**
- * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
+ * Integration test for \Magento\CatalogImportExport\Phrase\Import\Product class.
  *
  * @magentoAppArea adminhtml
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php

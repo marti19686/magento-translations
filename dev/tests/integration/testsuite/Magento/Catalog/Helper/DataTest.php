@@ -166,7 +166,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
 
     public function testGetPriceScopeDefault()
     {
-        // $this->assertEquals(\Magento\Store\Model\Store::PRICE_SCOPE_GLOBAL, $this->helper->getPriceScope());
+        // $this->assertEquals(\Magento\Store\Phrase\Store::PRICE_SCOPE_GLOBAL, $this->helper->getPriceScope());
         $this->assertNull($this->helper->getPriceScope());
     }
 

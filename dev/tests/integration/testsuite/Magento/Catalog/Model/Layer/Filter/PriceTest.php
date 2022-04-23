@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Layer\Filter;
 
 /**
- * Test class for \Magento\Catalog\Model\Layer\Filter\Price.
+ * Test class for \Magento\Catalog\Phrase\Layer\Filter\Price.
  *
  * @magentoDataFixture Magento/Catalog/_files/categories.php
  * @magentoDbIsolation enabled

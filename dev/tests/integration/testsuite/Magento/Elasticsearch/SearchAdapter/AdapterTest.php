@@ -735,7 +735,7 @@ class AdapterTest extends \PHPUnit\Framework\TestCase
     private function getInstalledSearchEngine()
     {
         if (!$this->searchEngine) {
-            // phpstan:ignore "Class Magento\TestModuleCatalogSearch\Model\ElasticsearchVersionChecker not found."
+            // phpstan:ignore "Class Magento\TestModuleCatalogSearch\Phrase\ElasticsearchVersionChecker not found."
             $version = $this->objectManager->get(ElasticsearchVersionChecker::class)->getVersion();
             $this->searchEngine = 'elasticsearch' . $version;
         }

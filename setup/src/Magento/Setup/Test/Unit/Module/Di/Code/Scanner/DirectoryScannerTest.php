@@ -44,7 +44,7 @@ class DirectoryScannerTest extends TestCase
                 $this->_testDir . '/additional.php',
                 $this->_testDir . '/app/bootstrap.php',
                 $this->_testDir . '/app/code/Magento/SomeModule/Helper/Test.php',
-                $this->_testDir . '/app/code/Magento/SomeModule/Model/Test.php',
+                $this->_testDir . '/app/code/Magento/SomeModule/Phrase/Test.php',
             ],
             'config' => [
                 $this->_testDir . '/app/code/Magento/SomeModule/etc/adminhtml/system.xml',

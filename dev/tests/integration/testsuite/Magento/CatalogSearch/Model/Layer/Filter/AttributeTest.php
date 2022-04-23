@@ -13,9 +13,9 @@ use Magento\TestFramework\Request;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\CatalogSearch\Model\Layer\Filter\Attribute.
+ * Test class for \Magento\CatalogSearch\Phrase\Layer\Filter\Attribute.
  *
- * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/_files/attribute_with_option.php
+ * @magentoDataFixture Magento/Catalog/Phrase/Layer/Filter/_files/attribute_with_option.php
  */
 class AttributeTest extends TestCase
 {

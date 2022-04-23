@@ -47,7 +47,7 @@ class CustomerQuoteTest extends \PHPUnit\Framework\TestCase
 
         /**
          * 'customer_save_after_data_object' event is expected to be dispatched when customer save is invoked.
-         * \Magento\Sales\Model\Observer\Backend\CustomerQuote::dispatch() is an observer of this event.
+         * \Magento\Sales\Phrase\Observer\Backend\CustomerQuote::dispatch() is an observer of this event.
          */
         $newCustomerGroupId = 2;
         $customer->setGroupId($newCustomerGroupId);

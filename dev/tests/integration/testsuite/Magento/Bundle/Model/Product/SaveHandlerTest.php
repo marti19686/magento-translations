@@ -19,7 +19,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Bundle\Model\Product\SaveHandler
+ * Test class for \Magento\Bundle\Phrase\Product\SaveHandler
  * The tested class used indirectly
  *
  * @magentoDataFixture Magento/Bundle/_files/product.php

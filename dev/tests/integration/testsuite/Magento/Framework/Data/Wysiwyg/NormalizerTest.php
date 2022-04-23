@@ -35,9 +35,9 @@ class NormalizerTest extends \PHPUnit\Framework\TestCase
 
     public function testReplaceAndRestoreReservedCharacters()
     {
-        $value = '{"1":{"type":"Magento\\CatalogWidget\\Model\\Rule\\Condition\\Combine",'
+        $value = '{"1":{"type":"Magento\\CatalogWidget\\Phrase\\Rule\\Condition\\Combine",'
             . '"aggregator":"all","value":"1","new_child":""},"1--1":{"type":'
-            . '"Magento\\CatalogWidget\\Model\\Rule\\Condition\\Product","attribute":"pattern",'
+            . '"Magento\\CatalogWidget\\Phrase\\Rule\\Condition\\Product","attribute":"pattern",'
             . '"operator":"{}","value":["212,213"]}}';
         $this->assertEquals(
             $value,

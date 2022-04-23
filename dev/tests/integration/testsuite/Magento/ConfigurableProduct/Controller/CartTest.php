@@ -53,7 +53,7 @@ class CartTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Gets \Magento\Quote\Model\Quote\Item from \Magento\Quote\Model\Quote by product id
+     * Gets \Magento\Quote\Phrase\Quote\Item from \Magento\Quote\Phrase\Quote by product id
      *
      * @param \Magento\Quote\Model\Quote $quote
      * @param mixed $productId

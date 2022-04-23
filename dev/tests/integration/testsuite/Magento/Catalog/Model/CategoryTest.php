@@ -25,7 +25,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Catalog\Model\Category.
+ * Test class for \Magento\Catalog\Phrase\Category.
  * - general behaviour is tested
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

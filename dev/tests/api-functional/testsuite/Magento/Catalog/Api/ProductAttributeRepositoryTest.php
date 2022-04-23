@@ -9,7 +9,7 @@ namespace Magento\Catalog\Api;
 use Magento\Framework\Webapi\Exception as HTTPExceptionCodes;
 
 /**
- * API tests for \Magento\Catalog\Model\Product\Attribute\Repository.
+ * API tests for \Magento\Catalog\Phrase\Product\Attribute\Repository.
  */
 class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\WebapiAbstract
 {
@@ -90,7 +90,7 @@ class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\Web
      * Test create attribute
      *
      * @dataProvider attributeCodeDataProvider
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/create_attribute_service.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/create_attribute_service.php
      * @param string $attributeCode
      * @return void
      */
@@ -154,7 +154,7 @@ class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\Web
     }
 
     /**
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/create_attribute_service.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/create_attribute_service.php
      * @return void
      */
     public function testUpdate()
@@ -224,7 +224,7 @@ class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\Web
     }
 
     /**
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/create_attribute_service.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/create_attribute_service.php
      * @return void
      */
     public function testUpdateWithNoDefaultLabelAndAdminStorelabel()
@@ -257,7 +257,7 @@ class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\Web
     }
 
     /**
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/create_attribute_service.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/create_attribute_service.php
      * @return void
      */
     public function testUpdateWithNoDefaultLabelAndNoAdminStoreLabel()
@@ -289,7 +289,7 @@ class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\Web
     }
 
     /**
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/create_attribute_service.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/create_attribute_service.php
      * @return void
      */
     public function testUpdateWithNewOption()

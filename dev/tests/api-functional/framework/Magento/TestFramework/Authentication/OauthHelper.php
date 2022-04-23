@@ -34,8 +34,8 @@ class OauthHelper
      *   'key' => 'ajdsjashgdkahsdlkjasldkjals', //consumer key
      *   'secret' => 'alsjdlaskjdlaksjdlasjkdlas', //consumer secret
      *   'verifier' => 'oiudioqueoiquweoiqwueoqwuii'
-     *   'consumer' => $consumer, // retrieved consumer Model
-     *   'token' => $token // retrieved token Model
+     *   'consumer' => $consumer, // retrieved consumer Phrase
+     *   'token' => $token // retrieved token Phrase
      *   );
      * </pre>
      * @throws LocalizedException

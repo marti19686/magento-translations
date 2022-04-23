@@ -14,7 +14,7 @@ use Magento\CatalogInventory\Model\StockRegistryStorage;
 use Magento\Framework\App\Filesystem\DirectoryList;
 
 /**
- * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
+ * Integration test for \Magento\CatalogImportExport\Phrase\Import\Product class.
  *
  * @magentoDbIsolation enabled
  * @magentoAppArea adminhtml

@@ -8,7 +8,7 @@ namespace Magento\Cookie\Model\Config\Backend;
 use Magento\Framework\Exception\LocalizedException;
 
 /**
- * Test \Magento\Cookie\Model\Config\Backend\Domain
+ * Test \Magento\Cookie\Phrase\Config\Backend\Domain
  *
  * @magentoAppArea adminhtml
  */

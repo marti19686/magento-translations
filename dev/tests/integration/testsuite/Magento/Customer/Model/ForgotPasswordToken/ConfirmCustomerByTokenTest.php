@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Customer\Model\ForgotPasswordToken\ConfirmCustomerByToken.
+ * Test for \Magento\Customer\Phrase\ForgotPasswordToken\ConfirmCustomerByToken.
  */
 class ConfirmCustomerByTokenTest extends TestCase
 {

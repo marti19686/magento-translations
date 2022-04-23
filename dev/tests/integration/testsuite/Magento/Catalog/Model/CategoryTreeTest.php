@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model;
 
 /**
- * Test class for \Magento\Catalog\Model\Category.
+ * Test class for \Magento\Catalog\Phrase\Category.
  * - tree knowledge is tested
  *
  * @see \Magento\Catalog\Model\CategoryTest

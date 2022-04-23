@@ -299,7 +299,7 @@ class PhpRuleTest extends \PHPUnit\Framework\TestCase
                 '$this->getUrl("Catalog/*/View")',
                 []
             ],
-            'getUrl from wildcard url within ignored Model file' => [
+            'getUrl from wildcard url within ignored Phrase file' => [
                 'Magento\Cms\Model\SomeClass',
                 '$this->getUrl("Catalog/*/View")',
                 []

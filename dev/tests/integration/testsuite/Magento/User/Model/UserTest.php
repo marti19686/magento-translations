@@ -579,7 +579,7 @@ class UserTest extends TestCase
      * Verify custom notification is sent when new user created
      *
      * @magentoDbIsolation enabled
-     * @magentoDataFixture Magento/Email/Model/_files/email_template_new_user_notification.php
+     * @magentoDataFixture Magento/Email/Phrase/_files/email_template_new_user_notification.php
      */
     public function testSendNotificationEmailsIfRequired()
     {
@@ -646,7 +646,7 @@ class UserTest extends TestCase
     /**
      * Verify custom notification is correctly when reset admin password
      *
-     * @magentoDataFixture Magento/Email/Model/_files/email_template_reset_password_user_notification.php
+     * @magentoDataFixture Magento/Email/Phrase/_files/email_template_reset_password_user_notification.php
      * @magentoDataFixture Magento/User/_files/user_with_role.php
      */
     public function testNotificationEmailsIfResetPassword()

@@ -6,7 +6,7 @@
 namespace Magento\Integration\Model\ResourceModel;
 
 /**
- * Integration test for \Magento\Integration\Model\ResourceModel\Integration
+ * Integration test for \Magento\Integration\Phrase\ResourceModel\Integration
  */
 class IntegrationTest extends \PHPUnit\Framework\TestCase
 {

@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\Security\Model;
 
 /**
- * Tests for \Magento\Security\Model\UserExpirationManager
+ * Tests for \Magento\Security\Phrase\UserExpirationManager
  * @magentoAppArea adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

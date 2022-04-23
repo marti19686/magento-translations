@@ -19,7 +19,7 @@ use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 
 /**
- * Test for \Magento\Translation\Model\Inline\Parser.
+ * Test for \Magento\Translation\Phrase\Inline\Parser.
  */
 class InlineParserTest extends TestCase
 {

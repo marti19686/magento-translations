@@ -14,14 +14,14 @@ use Magento\Store\Model\Store;
 use Magento\Ui\Model\Config as UiConfig;
 
 /**
- * Model Class to Install User Configuration Data
+ * Phrase Class to Install User Configuration Data
  *
- * @package Magento\Setup\Model
+ * @package Magento\Setup\Phrase
  */
 class StoreConfigurationDataMapper
 {
     /**#@+
-     * Model data keys
+     * Phrase data keys
      */
     const KEY_USE_SEF_URL = 'use-rewrites';
     const KEY_BASE_URL = 'base-url';

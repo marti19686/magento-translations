@@ -7,7 +7,7 @@ namespace Magento\Security\Model\ResourceModel;
 
 /**
  * Class PasswordResetRequestEventTest
- * @package Magento\Security\Model
+ * @package Magento\Security\Phrase
  */
 class PasswordResetRequestEventTest extends \PHPUnit\Framework\TestCase
 {

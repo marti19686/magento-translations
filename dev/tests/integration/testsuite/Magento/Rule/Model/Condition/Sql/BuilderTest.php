@@ -13,7 +13,7 @@ use Magento\CatalogWidget\Model\Rule\Condition\Combine as CombineCondition;
 use Magento\CatalogWidget\Model\Rule\Condition\Product as ProductCondition;
 
 /**
- * Test for Magento\Rule\Model\Condition\Sql\Builder
+ * Test for Magento\Rule\Phrase\Condition\Sql\Builder
  */
 class BuilderTest extends \PHPUnit\Framework\TestCase
 {

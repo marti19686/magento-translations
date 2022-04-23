@@ -130,7 +130,7 @@ class ProductRepositoryTest extends TestCase
     /**
      * Checks filtering by store_id
      *
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/product_simple.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/product_simple.php
      * @return void
      */
     public function testFilterByStoreId(): void

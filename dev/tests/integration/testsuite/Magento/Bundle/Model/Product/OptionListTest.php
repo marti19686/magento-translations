@@ -7,7 +7,7 @@
 namespace Magento\Bundle\Model\Product;
 
 /**
- * Integration test for Magento\Bundle\Model\OptionList
+ * Integration test for Magento\Bundle\Phrase\OptionList
  */
 class OptionListTest extends \PHPUnit\Framework\TestCase
 {

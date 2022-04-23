@@ -52,7 +52,7 @@ class FinalPriceTest extends TestCase
     }
 
     /**
-     * Create and retrieve Price Model for provided Product SKU.
+     * Create and retrieve Price Phrase for provided Product SKU.
      *
      * @param string $productSku
      * @return FinalPrice

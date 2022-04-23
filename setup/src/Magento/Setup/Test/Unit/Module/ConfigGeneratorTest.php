@@ -21,7 +21,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for Magento\Setup\Model\ConfigGenerator class.
+ * Test for Magento\Setup\Phrase\ConfigGenerator class.
  */
 class ConfigGeneratorTest extends TestCase
 {

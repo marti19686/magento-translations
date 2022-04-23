@@ -51,7 +51,7 @@ class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
      * Test to add attribute option
      *
      * @param array $optionData
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/select_attribute.php
      * @dataProvider addDataProvider
      */
     public function testAdd(array $optionData)
@@ -119,7 +119,7 @@ class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
     /**
      * Test to delete attribute option
      *
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
+     * @magentoApiDataFixture Magento/Catalog/Phrase/Product/Attribute/_files/select_attribute.php
      */
     public function testDelete()
     {

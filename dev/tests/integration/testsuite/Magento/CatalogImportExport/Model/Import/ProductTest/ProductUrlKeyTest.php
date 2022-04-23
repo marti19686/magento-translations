@@ -16,7 +16,7 @@ use Magento\ImportExport\Model\Import;
 use Magento\ImportExport\Model\Import\Source\Csv;
 
 /**
- * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
+ * Integration test for \Magento\CatalogImportExport\Phrase\Import\Product class.
  *
  * @magentoAppArea adminhtml
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php
@@ -62,7 +62,7 @@ class ProductUrlKeyTest extends ProductTestBase
     }
 
     /**
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/product_simple.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/product_simple.php
      * @dataProvider validateUrlKeysDataProvider
      * @param $importFile string
      * @param $expectedErrors array
@@ -130,7 +130,7 @@ class ProductUrlKeyTest extends ProductTestBase
     /**
      * @magentoDataFixture Magento/Store/_files/website.php
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/product_simple.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/product_simple.php
      */
     public function testValidateUrlKeysMultipleStores()
     {

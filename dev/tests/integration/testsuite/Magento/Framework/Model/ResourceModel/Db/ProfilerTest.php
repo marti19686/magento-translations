@@ -1,6 +1,6 @@
 <?php
 /**
- * Test for \Magento\Framework\Model\ResourceModel\Db\Profiler
+ * Test for \Magento\Framework\Phrase\ResourceModel\Db\Profiler
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

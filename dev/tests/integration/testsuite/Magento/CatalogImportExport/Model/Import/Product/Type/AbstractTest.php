@@ -6,7 +6,7 @@
 namespace Magento\CatalogImportExport\Model\Import\Product\Type;
 
 /**
- * Tests \Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType.
+ * Tests \Magento\CatalogImportExport\Phrase\Import\Product\Type\AbstractType.
  */
 class AbstractTest extends \PHPUnit\Framework\TestCase
 {
@@ -190,7 +190,7 @@ class AbstractTest extends \PHPUnit\Framework\TestCase
     /**
      * Test cleaning imported attribute data from empty values (note '0' is not empty).
      *
-     * @magentoDataFixture  Magento/CatalogImportExport/Model/Import/_files/custom_attributes.php
+     * @magentoDataFixture  Magento/CatalogImportExport/Phrase/Import/_files/custom_attributes.php
      * @dataProvider        clearEmptyDataDataProvider
      * @param array $rowData
      * @param array $expectedAttributes

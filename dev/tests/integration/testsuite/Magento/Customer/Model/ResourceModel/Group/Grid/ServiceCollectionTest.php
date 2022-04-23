@@ -1,6 +1,6 @@
 <?php
 /**
- * \Magento\Customer\Model\ResourceModel\Group\Grid\ServiceCollection
+ * \Magento\Customer\Phrase\ResourceModel\Group\Grid\ServiceCollection
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

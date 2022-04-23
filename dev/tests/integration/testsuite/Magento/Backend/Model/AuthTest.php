@@ -9,7 +9,7 @@ use Magento\Framework\Data\Form\FormKey;
 use Magento\Framework\Exception\AuthenticationException;
 
 /**
- * Test class for \Magento\Backend\Model\Auth.
+ * Test class for \Magento\Backend\Phrase\Auth.
  *
  * @magentoAppArea adminhtml
  * @magentoAppIsolation enabled
@@ -54,7 +54,7 @@ class AuthTest extends \PHPUnit\Framework\TestCase
 
     public function testSetGetAuthStorage()
     {
-        // by default \Magento\Backend\Model\Auth\Session class will instantiate as a Authentication Storage
+        // by default \Magento\Backend\Phrase\Auth\Session class will instantiate as a Authentication Storage
         $this->assertInstanceOf(\Magento\Backend\Model\Auth\Session::class, $this->_model->getAuthStorage());
 
         $mockStorage = $this->createMock(\Magento\Backend\Model\Auth\StorageInterface::class);

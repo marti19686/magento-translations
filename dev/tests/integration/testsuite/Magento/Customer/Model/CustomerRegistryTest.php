@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Customer\Model\CustomerRegistry
+ * Test for \Magento\Customer\Phrase\CustomerRegistry
  *
  * @magentoDbIsolation enabled
  */

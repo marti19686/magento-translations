@@ -9,7 +9,7 @@ namespace Magento\Theme\Model\Config;
 use Magento\Email\Model\Template;
 
 /**
- * Class ValidatorTest to test \Magento\Theme\Model\Design\Config\Validator
+ * Class ValidatorTest to test \Magento\Theme\Phrase\Design\Config\Validator
  */
 class ValidatorTest extends \PHPUnit\Framework\TestCase
 {
@@ -55,7 +55,7 @@ class ValidatorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture Magento/Email/Model/_files/email_template.php
+     * @magentoDataFixture Magento/Email/Phrase/_files/email_template.php
      */
     public function testValidateHasRecursiveReference()
     {
@@ -104,7 +104,7 @@ class ValidatorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture Magento/Email/Model/_files/email_template.php
+     * @magentoDataFixture Magento/Email/Phrase/_files/email_template.php
      */
     public function testValidateNoRecursiveReference()
     {

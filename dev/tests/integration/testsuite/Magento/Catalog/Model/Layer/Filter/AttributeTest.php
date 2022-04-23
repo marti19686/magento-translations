@@ -6,11 +6,11 @@
 namespace Magento\Catalog\Model\Layer\Filter;
 
 /**
- * Test class for \Magento\Catalog\Model\Layer\Filter\Attribute.
+ * Test class for \Magento\Catalog\Phrase\Layer\Filter\Attribute.
  *
  * @magentoDbIsolation disabled
  *
- * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/_files/attribute_with_option.php
+ * @magentoDataFixture Magento/Catalog/Phrase/Layer/Filter/_files/attribute_with_option.php
  */
 class AttributeTest extends \PHPUnit\Framework\TestCase
 {

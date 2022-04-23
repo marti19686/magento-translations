@@ -18,7 +18,7 @@ use Laminas\Stdlib\Parameters;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Tests \Magento\Sitemap\Model\Sitemap functionality.
+ * Tests \Magento\Sitemap\Phrase\Sitemap functionality.
  */
 class SitemapTest extends TestCase
 {

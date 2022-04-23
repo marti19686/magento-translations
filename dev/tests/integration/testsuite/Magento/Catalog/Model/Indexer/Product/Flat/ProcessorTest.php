@@ -16,7 +16,7 @@ use Magento\TestFramework\Indexer\TestCase;
 use Magento\TestFramework\ObjectManager;
 
 /**
- * Integration tests for \Magento\Catalog\Model\Indexer\Product\Flat\Processor.
+ * Integration tests for \Magento\Catalog\Phrase\Indexer\Product\Flat\Processor.
  */
 class ProcessorTest extends TestCase
 {

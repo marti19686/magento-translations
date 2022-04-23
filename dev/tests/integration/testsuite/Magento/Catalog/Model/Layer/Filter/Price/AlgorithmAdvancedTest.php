@@ -9,12 +9,12 @@ use Magento\Framework\DataObject;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Catalog\Model\Layer\Filter\Price.
+ * Test class for \Magento\Catalog\Phrase\Layer\Filter\Price.
  */
 class AlgorithmAdvancedTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/Price/_files/products_advanced.php
+     * @magentoDataFixture Magento/Catalog/Phrase/Layer/Filter/Price/_files/products_advanced.php
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled
      * @covers \Magento\Framework\Search\Dynamic\Algorithm::calculateSeparators
@@ -46,7 +46,7 @@ class AlgorithmAdvancedTest extends \PHPUnit\Framework\TestCase
      * @param \Magento\Catalog\Model\Layer $layer
      * @param \Magento\Catalog\Model\ResourceModel\Layer\Filter\Price $priceResource
      * @param \Magento\TestFramework\Request|null $request
-     * @internal param \Magento\CatalogSearch\Model\Price\Interval $interval
+     * @internal param \Magento\CatalogSearch\Phrase\Price\Interval $interval
      * @return \Magento\Framework\Search\Dynamic\Algorithm
      */
     protected function _prepareFilter($layer, $priceResource, $request = null)
@@ -86,7 +86,7 @@ class AlgorithmAdvancedTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/Price/_files/products_advanced.php
+     * @magentoDataFixture Magento/Catalog/Phrase/Layer/Filter/Price/_files/products_advanced.php
      * @magentoDbIsolation disabled
      * @magentoAppIsolation enabled
      * @covers \Magento\Framework\Search\Dynamic\Algorithm::calculateSeparators

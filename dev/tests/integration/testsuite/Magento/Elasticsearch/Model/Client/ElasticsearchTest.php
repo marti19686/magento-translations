@@ -167,7 +167,7 @@ class ElasticsearchTest extends \PHPUnit\Framework\TestCase
     private function getInstalledSearchEngine()
     {
         if (!$this->searchEngine) {
-            // phpstan:ignore "Class Magento\TestModuleCatalogSearch\Model\ElasticsearchVersionChecker not found."
+            // phpstan:ignore "Class Magento\TestModuleCatalogSearch\Phrase\ElasticsearchVersionChecker not found."
             $version = Bootstrap::getObjectManager()->get(ElasticsearchVersionChecker::class)->getVersion();
             $this->searchEngine = 'elasticsearch' . $version;
         }

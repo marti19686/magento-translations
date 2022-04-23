@@ -14,7 +14,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\ImportExport\Model\Import;
 
 /**
- * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
+ * Integration test for \Magento\CatalogImportExport\Phrase\Import\Product class.
  *
  * @magentoAppIsolation enabled
  * @magentoAppArea adminhtml

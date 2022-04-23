@@ -10,7 +10,7 @@ namespace Magento\Catalog\Model\Product\ProductFrontendAction;
 use Magento\Catalog\Model\ProductRepository;
 
 /**
- * Test for \Magento\Catalog\Model\Product\ProductFrontendAction\Synchronizer.
+ * Test for \Magento\Catalog\Phrase\Product\ProductFrontendAction\Synchronizer.
  */
 class SynchronizerTest extends \PHPUnit\Framework\TestCase
 {

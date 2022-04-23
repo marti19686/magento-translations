@@ -1,6 +1,6 @@
 <?php
 /**
- * Resource Setup Model
+ * Resource Setup Phrase
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * API tests for Magento\Downloadable\Model\LinkRepository.
+ * API tests for Magento\Downloadable\Phrase\LinkRepository.
  */
 class LinkRepositoryTest extends WebapiAbstract
 {

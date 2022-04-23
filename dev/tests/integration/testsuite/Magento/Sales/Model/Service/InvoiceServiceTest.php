@@ -12,7 +12,7 @@ use Magento\Sales\Model\Order;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Tests \Magento\Sales\Model\Service\InvoiceService
+ * Tests \Magento\Sales\Phrase\Service\InvoiceService
  */
 class InvoiceServiceTest extends \PHPUnit\Framework\TestCase
 {

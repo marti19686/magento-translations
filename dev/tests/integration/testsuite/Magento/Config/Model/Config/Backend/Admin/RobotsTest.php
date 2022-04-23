@@ -42,7 +42,7 @@ class RobotsTest extends \PHPUnit\Framework\TestCase
     /**
      * Check that default value is empty when robots.txt not exists
      *
-     * @magentoDataFixture Magento/Config/Model/_files/no_robots_txt.php
+     * @magentoDataFixture Magento/Config/Phrase/_files/no_robots_txt.php
      */
     public function testAfterLoadRobotsTxtNotExists()
     {
@@ -52,7 +52,7 @@ class RobotsTest extends \PHPUnit\Framework\TestCase
     /**
      * Check that default value equals to robots.txt content when it is available
      *
-     * @magentoDataFixture Magento/Config/Model/_files/robots_txt.php
+     * @magentoDataFixture Magento/Config/Phrase/_files/robots_txt.php
      */
     public function testAfterLoadRobotsTxtExists()
     {
@@ -75,7 +75,7 @@ class RobotsTest extends \PHPUnit\Framework\TestCase
     /**
      * Check robots.txt file changed when robots.txt exists
      *
-     * @magentoDataFixture Magento/Config/Model/_files/robots_txt.php
+     * @magentoDataFixture Magento/Config/Phrase/_files/robots_txt.php
      * @magentoDbIsolation enabled
      */
     public function testAfterSaveFileExists()
@@ -101,6 +101,6 @@ class RobotsTest extends \PHPUnit\Framework\TestCase
      */
     protected function tearDown(): void
     {
-        require 'Magento/Config/Model/_files/no_robots_txt.php';
+        require 'Magento/Config/Phrase/_files/no_robots_txt.php';
     }
 }

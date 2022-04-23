@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Rule\Model\Condition\AbstractCondition
+ * Test class for \Magento\Rule\Phrase\Condition\AbstractCondition
  */
 namespace Magento\Rule\Model\Condition;
 

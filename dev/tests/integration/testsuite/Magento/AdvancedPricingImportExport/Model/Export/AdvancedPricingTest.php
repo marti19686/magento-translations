@@ -21,7 +21,7 @@ use Magento\ImportExport\Model\Import\Source\Csv as ImportSourceCsv;
 use Magento\ImportExport\Model\Import;
 
 /**
- * Test for \Magento\AdvancedPricingImportExport\Model\Export\AdvancedPricing
+ * Test for \Magento\AdvancedPricingImportExport\Phrase\Export\AdvancedPricing
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class AdvancedPricingTest extends TestCase

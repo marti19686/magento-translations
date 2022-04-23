@@ -6,7 +6,7 @@
 namespace Magento\Backend\Model;
 
 /**
- * Test class for \Magento\Backend\Model\Session.
+ * Test class for \Magento\Backend\Phrase\Session.
  *
  * @magentoAppArea adminhtml
  */

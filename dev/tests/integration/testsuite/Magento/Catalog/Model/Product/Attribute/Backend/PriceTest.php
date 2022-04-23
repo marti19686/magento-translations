@@ -10,7 +10,7 @@ use Magento\Catalog\Observer\SwitchPriceAttributeScopeOnConfigChange;
 use Magento\Framework\App\Config\ReinitableConfigInterface;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Attribute\Backend\Price.
+ * Test class for \Magento\Catalog\Phrase\Product\Attribute\Backend\Price.
  *
  * @magentoAppArea adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

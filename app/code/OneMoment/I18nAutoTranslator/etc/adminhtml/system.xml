@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="one_moment" translate="label" sortOrder="300">
+            <label><![CDATA[OneMoment Extensions]]></label>
+        </tab>
+        <section id="translator" showInDefault="1" showInWebsite="1" showInStore="1">
+            <tab>one_moment</tab>
+            <label><![CDATA[OneMoment I18n Auto Translator]]></label>
+            <resource>OneMoment_I18nAutoTranslator::config_translator</resource>
+            <group id="general" showInDefault="1">
+                <label><![CDATA[Extension Configuration]]></label>
+                <attribute type="expanded">1</attribute>
+
+                <field id="google_api" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label><![CDATA[Google API Key]]></label>
+                    <comment><![CDATA[Enter Google API Key to translate data]]></comment>
+                    <validate>required-entry</validate>
+                </field>
+
+                <field id="google_daily_limit" translate="label" type="text" sortOrder="21" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label><![CDATA[Daily Quota]]></label>
+                    <comment><![CDATA[Daily quota (limit) specified in Google Billing Account.]]></comment>
+                    <validate>required-entry validate-digits</validate>
+                </field>
+
+                <field id="google_daily_cut_before_limit" translate="label" type="text" sortOrder="21" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label><![CDATA[Safe Limit]]></label>
+                    <comment><![CDATA[Daily safe limit (must be less than daily limit above)]]></comment>
+                    <validate>required-entry validate-digits</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

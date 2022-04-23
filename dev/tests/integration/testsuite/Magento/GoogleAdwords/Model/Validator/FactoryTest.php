@@ -1,6 +1,6 @@
 <?php
 /**
- * Integration test for \Magento\GoogleAdwords\Model\Validator\Factory
+ * Integration test for \Magento\GoogleAdwords\Phrase\Validator\Factory
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

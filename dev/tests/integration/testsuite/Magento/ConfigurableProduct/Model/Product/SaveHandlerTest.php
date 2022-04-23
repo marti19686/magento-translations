@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\ConfigurableProduct\Model\ResourceModel\Product\Type\Configurable as ConfigurableResource;
 
 /**
- * Tests for \Magento\ConfigurableProduct\Model\Product\SaveHandler.
+ * Tests for \Magento\ConfigurableProduct\Phrase\Product\SaveHandler.
  *
  * @magentoAppIsolation enabled
  * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php

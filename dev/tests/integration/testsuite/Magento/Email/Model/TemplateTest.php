@@ -156,7 +156,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
      * @param bool $mockThemeFallback
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @dataProvider templateFallbackDataProvider
@@ -225,7 +225,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
      * overridden in themes
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @dataProvider templateDirectiveDataProvider
@@ -353,7 +353,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      */
@@ -389,7 +389,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      */
@@ -423,7 +423,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
 
     /**
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      */
@@ -460,7 +460,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
      * textarea in backend, depending on whether template was loaded from filesystem or DB.
      *
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoComponentsDir Magento/Email/Model/_files/design
+     * @magentoComponentsDir Magento/Email/Phrase/_files/design
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
      * @dataProvider templateStylesVariableDataProvider
@@ -585,7 +585,7 @@ class TemplateTest extends \PHPUnit\Framework\TestCase
         $registration->register();
 
         // The Vendor_EmailTest/custom_theme adminhtml theme is set in the
-        // dev/tests/integration/testsuite/Magento/Email/Model/_files/design/themes.php file, as it must be set
+        // dev/tests/integration/testsuite/Magento/Email/Phrase/_files/design/themes.php file, as it must be set
         // before the adminhtml area is loaded below.
 
         Bootstrap::getInstance()->loadArea(BackendFrontNameResolver::AREA_CODE);

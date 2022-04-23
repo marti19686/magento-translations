@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\ObjectManager;
 
 /**
- * Test for Magento\Catalog\Model\Indexer\Category\Product\Action\Full *
+ * Test for Magento\Catalog\Phrase\Indexer\Category\Product\Action\Full *
  */
 class FullTest extends \PHPUnit\Framework\TestCase
 {

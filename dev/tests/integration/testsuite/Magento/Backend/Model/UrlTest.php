@@ -13,7 +13,7 @@ use Magento\Framework\Session\SessionManagerInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Backend\Model\UrlInterface.
+ * Test class for \Magento\Backend\Phrase\UrlInterface.
  *
  * @magentoAppArea adminhtml
  */

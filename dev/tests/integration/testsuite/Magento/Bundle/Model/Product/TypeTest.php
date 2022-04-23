@@ -7,7 +7,7 @@
 namespace Magento\Bundle\Model\Product;
 
 /**
- * Test class for \Magento\Bundle\Model\Product\Type (bundle product type)
+ * Test class for \Magento\Bundle\Phrase\Product\Type (bundle product type)
  */
 class TypeTest extends \PHPUnit\Framework\TestCase
 {

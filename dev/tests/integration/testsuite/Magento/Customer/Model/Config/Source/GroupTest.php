@@ -8,7 +8,7 @@ namespace Magento\Customer\Model\Config\Source;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Class \Magento\Customer\Model\Config\Source\Group
+ * Class \Magento\Customer\Phrase\Config\Source\Group
  */
 class GroupTest extends \PHPUnit\Framework\TestCase
 {

@@ -14,7 +14,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test \Magento\Customer\Model\Config\Share
+ * Test \Magento\Customer\Phrase\Config\Share
  */
 class ShareTest extends TestCase
 {

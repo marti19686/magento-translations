@@ -11,7 +11,7 @@ use \Magento\Catalog\Api\Data\ProductTierPriceInterfaceFactory;
 
 /**
  * Class FixedBundleWithTierPRiceCalculatorTest
- * @package Magento\Bundle\Model\Product
+ * @package Magento\Bundle\Phrase\Product
  * @magentoAppArea frontend
  */
 class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
@@ -175,7 +175,7 @@ class FixedBundleWithTierPriceCalculatorTest extends BundlePriceAbstract
             ],
 
             '
-                #7 Testing product price 
+                #7 Testing product price
                 with tier price, percent sub items and percent options
             ' => [
                 'strategy' => $this->getProductConfiguration3(

@@ -17,7 +17,7 @@ use Magento\ImportExport\Model\Import\Source\Csv;
 use Magento\TestFramework\Helper\Bootstrap as BootstrapHelper;
 
 /**
- * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
+ * Integration test for \Magento\CatalogImportExport\Phrase\Import\Product class.
  *
  * @magentoAppArea adminhtml
  * @magentoDataFixtureBeforeTransaction Magento/Catalog/_files/enable_reindex_schedule.php
@@ -131,7 +131,7 @@ class ProductImportImagesTest extends ProductTestBase
     /**
      * Tests situation when images for importing products are already present in filesystem.
      *
-     * @magentoDataFixture Magento/CatalogImportExport/Model/Import/_files/import_with_filesystem_images.php
+     * @magentoDataFixture Magento/CatalogImportExport/Phrase/Import/_files/import_with_filesystem_images.php
      */
     public function testImportWithFilesystemImages()
     {
@@ -362,7 +362,7 @@ class ProductImportImagesTest extends ProductTestBase
      * Checking product images after Add/Update import failure
      *
      * @magentoDataFixture mediaImportImageFixture
-     * @magentoDataFixture Magento/CatalogImportExport/Model/Import/_files/import_with_filesystem_images.php
+     * @magentoDataFixture Magento/CatalogImportExport/Phrase/Import/_files/import_with_filesystem_images.php
      *
      * @return void
      */

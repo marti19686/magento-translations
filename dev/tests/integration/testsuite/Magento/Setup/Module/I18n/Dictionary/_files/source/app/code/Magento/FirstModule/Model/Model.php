@@ -12,6 +12,6 @@ class Model
      */
     public function test()
     {
-        __('Model');
+        __('Phrase');
     }
 }

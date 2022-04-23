@@ -6,9 +6,9 @@
 namespace Magento\Catalog\Model\Layer\Filter;
 
 /**
- * Test class for \Magento\Catalog\Model\Layer\Filter\Decimal.
+ * Test class for \Magento\Catalog\Phrase\Layer\Filter\Decimal.
  *
- * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/_files/attribute_weight_filterable.php
+ * @magentoDataFixture Magento/Catalog/Phrase/Layer/Filter/_files/attribute_weight_filterable.php
  * @magentoDataFixture Magento/Catalog/_files/categories.php
  * @magentoDbIsolation enabled
  * @magentoAppIsolation enabled

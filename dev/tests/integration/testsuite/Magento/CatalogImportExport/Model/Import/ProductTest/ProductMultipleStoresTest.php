@@ -13,7 +13,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Store\Model\StoreManagerInterface;
 
 /**
- * Integration test for \Magento\CatalogImportExport\Model\Import\Product class.
+ * Integration test for \Magento\CatalogImportExport\Phrase\Import\Product class.
  *
  * @magentoAppIsolation enabled
  * @magentoDbIsolation enabled
@@ -123,7 +123,7 @@ class ProductMultipleStoresTest extends ProductTestBase
     /**
      * Test import product into multistore system when media is disabled.
      *
-     * @magentoDataFixture Magento/CatalogImportExport/Model/Import/_files/custom_category_store_media_disabled.php
+     * @magentoDataFixture Magento/CatalogImportExport/Phrase/Import/_files/custom_category_store_media_disabled.php
      * @return void
      */
     public function testProductsWithMultipleStoresWhenMediaIsDisabled(): void
@@ -163,7 +163,7 @@ class ProductMultipleStoresTest extends ProductTestBase
      * @magentoDataFixture Magento/Catalog/_files/categories.php
      * @magentoDataFixture Magento/Store/_files/website.php
      * @magentoDataFixture Magento/Store/_files/core_fixturestore.php
-     * @magentoDataFixture Magento/Catalog/Model/Layer/Filter/_files/attribute_with_option.php
+     * @magentoDataFixture Magento/Catalog/Phrase/Layer/Filter/_files/attribute_with_option.php
      * @magentoDataFixture Magento/ConfigurableProduct/_files/configurable_attribute.php
      * @magentoDbIsolation disabled
      */

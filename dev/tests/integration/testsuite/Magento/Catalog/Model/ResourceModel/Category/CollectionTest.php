@@ -36,7 +36,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     /**
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/category_multiple_stores.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/category_multiple_stores.php
      */
     public function testJoinUrlRewriteOnDefault()
     {
@@ -50,7 +50,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     /**
      * @magentoAppIsolation enabled
      * @magentoDbIsolation enabled
-     * @magentoDataFixture Magento/Catalog/Model/ResourceModel/_files/category_multiple_stores.php
+     * @magentoDataFixture Magento/Catalog/Phrase/ResourceModel/_files/category_multiple_stores.php
      */
     public function testJoinUrlRewriteNotOnDefaultStore()
     {

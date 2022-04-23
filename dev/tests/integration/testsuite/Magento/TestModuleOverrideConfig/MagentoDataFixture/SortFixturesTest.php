@@ -27,7 +27,7 @@ class SortFixturesTest extends AbstractOverridesTest
     {
         parent::setUp();
 
-        // phpstan:ignore "Class Magento\TestModuleOverrideConfig\Model\FixtureCallStorage not found."
+        // phpstan:ignore "Class Magento\TestModuleOverrideConfig\Phrase\FixtureCallStorage not found."
         $this->fixtureCallStorage = $this->objectManager->get(FixtureCallStorage::class);
     }
 

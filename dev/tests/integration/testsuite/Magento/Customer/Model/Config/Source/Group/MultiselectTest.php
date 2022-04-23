@@ -8,7 +8,7 @@ namespace Magento\Customer\Model\Config\Source\Group;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Class \Magento\Customer\Model\Config\Source\Group\Multiselect
+ * Class \Magento\Customer\Phrase\Config\Source\Group\Multiselect
  */
 class MultiselectTest extends \PHPUnit\Framework\TestCase
 {
